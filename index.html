@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
+<!--Нормализация стиля-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
 
     <!-- Нашы стили -->
     <link rel="stylesheet" href="./css/style.css">
@@ -17,6 +19,7 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
+      <div class="container header-container">
       <nav class="nav">
         <a href="./portfolio.html" class="nav-logo link " > <span class="logo">Web</span>Studio </a>
         <ul class="nav-list list ">
@@ -30,6 +33,7 @@
             <a class="activ-dark link" href="">Контакты</a>
           </li>
         </ul>
+        <div class="header-wrapper">
         <ul class="nav-list list">
           <li>
             <a class="header-button link" href="info@devstudio.com">info@devstudio.com</a>
@@ -38,7 +42,9 @@
             <a  class="nav-phon link" href="+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
+        </div>
       </nav>
+       </div>
     
     </header>
     
@@ -46,6 +52,7 @@
     
     <main>
       <!-- Секция Герой -->
+      <div class="container">
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button class="hero-btn" type="button" > Заказать услугу </button>
@@ -72,8 +79,10 @@
             <p class="about-text"> Значимость этих проблем настолько очевидна, что реализация плановых заданий. </p>
           </li>
         </ul>
+        </div>
       </section>  
         <!-- Чем мы занимаемся-->
+        <div class="container">
         <section class="we">
           <h2 class="we-title"> Чем мы занимаемся</h2>
           <ul class="list"> 
@@ -87,10 +96,11 @@
               <img class="we-foto" src="./foto/imgdz2.jpg" alt="" width="370" height="294">
             </li>
           </ul>
-            
+         </div>
         </section>
     
         <!-- Наша команда -->
+        <div class="container">
     
         <section class="tiam">
           <h2 class="tiam-title">Наша команда</h2>
@@ -117,9 +127,11 @@
               <p class="tiam-text" lang="en">UI Designer</p>
             </li>
           </ul>
+         </div>
         </section>
     </main>
         <!--Секция Контакти-->
+        <div class="container">
         <footer class="footer">
           <a class="footer-logo link" href=""> <span class="logo">Web</span>Studio</a>
           <address class="footer">
@@ -136,6 +148,7 @@
             </ul>
           </address>
         </footer>
+        </div>
     
 </body>
 </html>

@@ -1,15 +1,4 @@
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
-/* 
-#2196F3
-#FFFFFF
-#757575
-#212121
-#000000
-#ECECEC
-;
- */
 
 :root {
   /* Основные шрифти */
@@ -42,14 +31,100 @@ body {
 
   color: var(--primary-dark-txt);
 }
+h1, h2, h3, p{
+margin-top: 0;
+margin-bottom: 0;
+}
+h1 last-child, h2 last-child, 
+h3 last-child, p last-child{
+margin-top: 0;
+}
+
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left:  auto;
+
+
+}
 
 .list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   list-style: none;
+}
+.header-container{
+ display: flex; 
+ align-items: center;
+}
+
+.nav-list:last-child{
+  margin: 0;
+}
+
+.nav-item{
+  margin-right: 50px;
 }
 
 .link {
   text-decoration: none;
 }
+/* Header */
+.nav-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+  color: var(--primaty-light-txt);
+}
+.title {
+  font-family: var(--main-foot);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-dark-txt);
+}
+.header-wrapper
+{
+  margin-right: auto;
+}
+/*Секция Контакти*/
+.header-button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: var(--bly-color-txt);
+}
+.header-button:hover{
+  color: var(--primary-dark-txt);
+}
+.header-button:focus{
+  color: var(--secondary-dark-txt);
+}
+.header-container{
+  display: flex;
+}
+.nav{
+  display: flex;
+}
+.nav-list{
+  margin-right: 90;
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+  margin: 80px;
+}
+
 
 /* Секция Герой*/
 
@@ -148,41 +223,6 @@ color: var(--primery-light-txt);
   color: var(--secondary-dark-txt);
 }
 
-/* Header */
-.nav-link {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.45;
-  letter-spacing: 0.03em;
-
-  color: var(--primaty-light-txt);
-}
-.title {
-  font-family: var(--main-foot);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-
-  color: var(--primary-dark-txt);
-}
-/*Секция Контакти*/
-.header-button {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-
-  color: var(--bly-color-txt);
-}
-.header-button:hover{
-  color: var(--primary-dark-txt);
-}
-.header-button:focus{
-  color: var(--secondary-dark-txt);
-}
 
 /*Секция кнопки навигацыи*/
 .navigation-item {
@@ -261,6 +301,7 @@ font-size: 26px;
 line-height: 1.19;
 color: var(--background-dark-bg);
 }
+
 .footer-logo{
   font-family: Raleway;
 font-size: 26px;
