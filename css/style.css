@@ -1,0 +1,300 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* 
+#2196F3
+#FFFFFF
+#757575
+#212121
+#000000
+#ECECEC
+;
+ */
+
+:root {
+  /* Основные шрифти */
+
+  --main-foot: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+
+  /* Cветлий текст */
+  --primery-light-txt: #ffffff;
+  --secondary-light-txt: rgba(255, 255, 255, 0.6);
+
+  /* Темный текст */
+  --primary-dark-txt: #757575;
+  --secondary-dark-txt: #212121;
+
+  /* Cветлый фон */
+  --primary-light-bg: #e5e5e5;
+  --secondary-light-bg: #f5f4fa;
+  /* Темный фон */
+  --background-dark-bg: #2f303a;
+  --bly-color-txt: #2196f3;
+}
+
+/*ОБщеи стили*/
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-dark-txt);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Секция Герой*/
+
+.nav-phon{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.45;
+letter-spacing: 0.03em;
+
+color: var(--primary-dark-txt);
+}
+
+.nav-info{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.45;
+letter-spacing: 0.03em;
+
+color:var(--primary-dark-txt);
+}
+
+.hero {
+   background: var(--background-dark-bg);
+}
+
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--primery-light-txt);
+}
+.hero-btn {
+ font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+ background: var(--bly-color-txt);
+color: var(--primery-light-txt);
+}
+
+/* О Нас*/
+/*.about {
+}
+
+.about-item {
+}*/
+
+.subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-dark-txt);
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-dark-txt);
+}
+/*Чем мы занимаемся*/
+.we-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-txt);
+}
+/*.we-foto*/
+
+/*Наша команда*/
+/*.tiam {
+}*/
+
+.tiam-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-txt);
+}
+
+/* Header */
+.nav-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+
+  color: var(--primaty-light-txt);
+}
+.title {
+  font-family: var(--main-foot);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-dark-txt);
+}
+/*Секция Контакти*/
+.header-button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: var(--bly-color-txt);
+}
+.header-button:hover{
+  color: var(--primary-dark-txt);
+}
+.header-button:focus{
+  color: var(--secondary-dark-txt);
+}
+
+/*Секция кнопки навигацыи*/
+.navigation-item {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+
+color: var( --secondary-dark-txt);
+
+}
+
+.navigation-list :hover{
+color: var(--bly-color-txt);
+
+}
+.navigation-list :focus{
+  color: var(--bly-color-txt);
+ 
+}
+
+
+
+
+/* Фото работ*/
+/* .fotos*/ 
+/*.fotos-link*/
+
+.tiam-link{
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+
+letter-spacing: 0.03em;
+
+color: var(--primary-dark-txt);
+}
+
+
+/* Контакти низ*/
+
+.footer {
+background: var(--background-dark-bg);
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+
+
+letter-spacing: 0.03em;
+
+color: var(-secondary-light-txt);
+}
+.footer-link{
+  color: var(--primery-light-txt);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(bly-color-txt);
+}
+/*Лого*/
+.logo{
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--bly-color-txt);
+}
+
+/*Лого студіо*/
+.nav-logo{
+  font-family: Raleway;
+font-size: 26px;
+line-height: 1.19;
+color: var(--background-dark-bg);
+}
+.footer-logo{
+  font-family: Raleway;
+font-size: 26px;
+line-height: 1.19;
+color: var(--primery-light-txt);
+}
+.activ.link.current {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+ background: var(--primary-dark-txt);
+color: var(--bly-color-txt);
+}
+.activ.link.current:hover{
+color: var(--secondary-dark-txt);
+}
+.activ.link.current:focus{
+  color: var(--bly-color-txt);
+}
+.activ-dark{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+
+color: var(--secondary-dark-txt);
+
+}
+.nav-list :hover{
+color: var(--bly-color-txt);
+ 
+}
+.navigation-list :focus{
+  color: var(--bly-color-txt);
+ 
+}
