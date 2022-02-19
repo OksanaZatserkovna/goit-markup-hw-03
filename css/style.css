@@ -135,8 +135,8 @@ p last-child {
 .nav {
   display: flex;
 }
-.nav-list {
-}
+/*.nav-list {
+}*/
 .nav-list {
   display: flex;
   align-items: center;
@@ -172,7 +172,6 @@ p last-child {
   color: var(--primery-light-txt);
   text-align: center;
   padding: 200px 0;
-  text-align: center;
 }
 
 .hero-title {
@@ -227,8 +226,8 @@ p last-child {
   color: var(--secondary-dark-txt);
   margin-bottom: 10px;
 }
-.about {
-}
+/*.about {
+}*/
 .about-text {
   font-size: 14px;
   line-height: 1.71;
@@ -282,6 +281,14 @@ p last-child {
 }
 
 /*Секция кнопки навигацыи*/
+.navigation-list {
+  margin: 50px;
+  text-align: center;
+  padding: 200px 0;
+  display: flex;
+  align-items: center;
+  margin: 80px;
+}
 .navigation-item {
   font-weight: 500;
   font-size: 16px;
@@ -302,16 +309,31 @@ p last-child {
 .fotos {
   padding-top: 94px;
   padding-bottom: 94px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.fotos-list.item:nth-last-child(-n + 6) {
+  margin-top: 30px;
+}
+.fotos-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 .fotos-item {
+  flex-basis: calc(100% / 3-30px);
   width: 380px;
   margin-right: 30px;
   margin-right: 30px;
   padding-top: 20px;
-  flex-wrap: wrap;
 }
 .fotos-item:nth-child(3n) {
-  margin-right: 0px;
+  margin-right: 30px;
 }
 
 .tiam-link {
@@ -320,7 +342,6 @@ p last-child {
   line-height: 1.87;
 
   letter-spacing: 0.03em;
-
   color: var(--primary-dark-txt);
 }
 
@@ -348,8 +369,7 @@ p last-child {
 .nav-link:focus {
   color: var(bly-color-txt);
 }
-.footer-listes {
-}
+
 /*Лого*/
 .logo {
   font-size: 26px;
