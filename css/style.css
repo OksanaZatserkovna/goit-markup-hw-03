@@ -161,18 +161,27 @@ color:var(--primary-dark-txt);
 
 .hero {
    background: var(--background-dark-bg);
+   color: var(--primery-light-txt);
+   text-align: center;
+   padding: 200px 0;
+  text-align: center;
+
 }
 
 .hero-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-
-text-align: center;
 letter-spacing: 0.06em;
-text-transform: uppercase;
+
+max-width: 700px;
+padding: 30px 0;
+margin: auto;
+
 
 color: var(--primery-light-txt);
+margin: 0px;
+margin-bottom: 40px;
 }
 .hero-btn {
  font-weight: bold;
@@ -180,8 +189,7 @@ font-size: 16px;
 line-height: 1.87;
 
 display: flex;
-align-items: center;
-text-align: center;
+
 letter-spacing: 0.06em;
  background: var(--bly-color-txt);
 color: var(--primery-light-txt);
@@ -189,9 +197,16 @@ color: var(--primery-light-txt);
 
 /* О Нас*/
 /*.about {
+  padding-left: 20px;
+  padding-right: avto;
+
+}
+.about-list{
+
 }
 
 .about-item {
+  
 }*/
 
 .subtitle {
