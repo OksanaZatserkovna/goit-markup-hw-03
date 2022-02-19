@@ -20,7 +20,9 @@
     </head>
     <body>
         <!-- Шапка сайта -->
+        <section class="header">
         <header class="header">
+             <div class="container header-container">
             <nav class="nav">
                 <a href="./index.html" class="nav-logo link" > <span class="logo">Web</span>Studio </a>
                 <ul class="nav-list list ">
@@ -28,12 +30,12 @@
                         <a class="activ-dark link" href="./index.html">Студия</a>
                     </li>
                     <li class="nav-item">
-                        <a class="activ.link.current link" href="./portfolio.html">Портфолио</a>
+                        <a class="activ-link current link" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="nav-item">
                         <a class="activ-dark link" href="">Контакты</a>
                     </li>
-                </ul>
+                </ul></nav>
                 <ul class="nav-list list ">
                     <li>
                         <a class="nav-info  link" href="info@devstudio.com">info@devstudio.com</a>
@@ -42,11 +44,13 @@
                         <a class="nav-phon link" href="+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
-            </nav> 
-        </header>
+             </div>
+        </header> </section>
         <!-- Контент -->
         <main>
             <!-- Секция кнопки навигацыи -->
+            <section class="navigation">
+            <div class="container">
             <h1 hidden=""> Наши роботы </h1>
                 <ul class="navigation-list list">
                     <li class="navigation-item"><button type="button">Все</button></li>
@@ -55,8 +59,12 @@
                     <li class="navigation-item"><button type="button">Дизайн</button></li>
                     <li class="navigation-item"><button type="button">Маркетинг</button></li>
                 </ul>
+            </div>
+        </section>
             <!-- Фото работ-->
-        
+            
+         <section class="fotos">
+                    <div class="container">
                 <ul class="fotos-list list">
                     <li class="fotos-item ">
                         <a class="fotos-link link" href=""  > 
@@ -129,13 +137,16 @@
 
                     <p class="tiam-link" >  Приложение</p> </a>
                  </li>
-                </ul>
+                </ul> </section>
+            </div>
             </main>
             <!-- Секция контакты-->
+            <section class="footer">
+            <div class="container">
             <footer class="footer" >
                 <a class="footer-logo link" href=""> <span class="logo">Web</span>Studio</a>
                 <address class="footer">
-                    <ul class="footer-list list">
+                    <ul class="footer-listes list">
                         <li class="footer-item">
                             <a class="footer-link link" href="https://google.com">г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
@@ -147,6 +158,6 @@
                         </li>
                     </ul>
                 </address>
-            </footer>    
+            </footer>    </div></section>
     </body>
 </html>
