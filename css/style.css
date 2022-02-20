@@ -236,6 +236,10 @@ p last-child {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.we-list {
+  display: flex;
+  align-items: center;
+}
 
 .we-title {
   font-weight: bold;
@@ -258,6 +262,10 @@ p last-child {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.tiam-list {
+  display: flex;
+  align-items: center;
+}
 
 .tiam-title {
   font-weight: bold;
@@ -269,7 +277,7 @@ p last-child {
   padding-top: 20px;
 }
 .tiam-item {
-  margin-right: 30px;
+  margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100%-90px) / 3);
 }
@@ -313,8 +321,7 @@ p last-child {
   padding: 0;
 }
 
-.fotos-list.item:nth-last-child(-n + 6) {
-  margin-top: 30px;
+.fotos-list.item:nth-last-child(n + 3) {
 }
 .fotos-list {
   display: flex;
