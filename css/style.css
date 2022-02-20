@@ -105,6 +105,7 @@ p last-child {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
 }
 .header-button {
   font-weight: 500;
@@ -141,7 +142,9 @@ p last-child {
   display: flex;
   align-items: center;
   margin: 80px;
-  margin-right: 90;
+
+  -ms-flex-item-align: center;
+  margin-left: auto;
 }
 .nav-item {
   margin-right: 50px;
@@ -286,8 +289,9 @@ p last-child {
   text-align: center;
   padding: 200px 0;
   display: flex;
-  align-items: center;
+
   margin: 80px;
+  justify-content: center;
 }
 .navigation-item {
   font-weight: 500;
@@ -296,6 +300,8 @@ p last-child {
   letter-spacing: 0.03em;
 
   color: var(--secondary-dark-txt);
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .navigation-list :hover {
@@ -385,6 +391,7 @@ p last-child {
   font-size: 26px;
   line-height: 1.19;
   color: var(--background-dark-bg);
+  margin-right: 30px;
 }
 
 .footer-logo {
@@ -414,6 +421,7 @@ p last-child {
   letter-spacing: 0.03em;
 
   color: var(--secondary-dark-txt);
+  border-width: px;
 }
 .activ-dark:hover,
 .activ-dark:focus {
