@@ -257,7 +257,6 @@ p last-child {
 .tiam {
   padding-top: 94px;
   padding-bottom: 94px;
-  flex-basis: calc((100%-90px) / 3);
 }
 
 .tiam-title {
@@ -272,6 +271,7 @@ p last-child {
 .tiam-item {
   margin-right: 30px;
   margin-top: 30px;
+  flex-basis: calc((100%-90px) / 3);
 }
 
 /*Секция кнопки навигацыи*/
