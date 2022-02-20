@@ -279,7 +279,7 @@ p last-child {
 .tiam-item {
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc((100%-90px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
 }
 
 /*Секция кнопки навигацыи*/
@@ -321,20 +321,18 @@ p last-child {
   padding: 0;
 }
 
-.fotos-list.item:nth-last-child(n + 3) {
+.fotos-list:not(:nth-child(n + 7)) {
+  margin-top: 30px;
 }
 .fotos-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .fotos-item {
   margin-top: 30px;
   margin-left: 30px;
-}
-.fotos-item:nth-child(3n) {
-  margin-right: 30px;
 }
 
 .tiam-link {
