@@ -277,9 +277,9 @@ p last-child {
   padding-top: 20px;
 }
 .tiam-item {
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
-  flex-basis: calc((100% - 90px) / 3);
 }
 
 /*Секция кнопки навигацыи*/
