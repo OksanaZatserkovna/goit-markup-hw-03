@@ -329,6 +329,7 @@ p last-child {
   flex-wrap: wrap;
   margin-top: 30px;
   margin-left: 30px;
+  justify-content: space-evenly;
 }
 .fotos-item {
   margin-top: 30px;
