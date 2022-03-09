@@ -69,9 +69,9 @@ p last-child {
   align-items: center;
 }
 
-.nav-list:last-child {
-  margin: 0;
-}
+/*.nav-list:last-child {
+
+}*/
 
 .link {
   text-decoration: none;
@@ -137,9 +137,7 @@ p last-child {
 .nav-list {
   display: flex;
   align-items: center;
-  margin: 80px;
   margin-left: auto;
-  margin-right: 90px;
   -ms-flex-item-align: center;
 }
 .nav-item {
@@ -203,11 +201,10 @@ p last-child {
 /* О Нас*/
 
 .about-list {
-  max-width: 700;
   display: flex;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-left: -30px;
 }
+
 .about-item {
   width: 270px;
   margin-left: 30px;
@@ -241,7 +238,7 @@ p last-child {
 
 .we-list {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .we-title {
@@ -254,12 +251,10 @@ p last-child {
   color: var(--secondary-dark-txt);
 }
 .we-foto {
-  display: blok;
+  display: blok ;
   max-width: 100%;
   height: auto;
-  margin-right: 30px;
-  padding-top: 20px;
-  flex-wrap: wrap;
+ 
 }
 
 /*Наша команда*/
@@ -268,6 +263,7 @@ p last-child {
 .tiam-list {
   display: flex;
   align-items: center;
+  padding-top: 30px;
 }
 
 .tiam-title {
@@ -281,9 +277,9 @@ p last-child {
   background-color: #f5f4fa;
 }
 .tiam-item {
-  
-
   margin-top: 30px;
+  text-align: center;
+
 }
 
 /*Секция кнопки навигацыи*/
@@ -349,23 +345,36 @@ p last-child {
 
   letter-spacing: 0.03em;
   color: var(--primary-dark-txt);
+  
 }
 .tiam-layk{
-  padding-top: 54px;
+  padding-top: 20px;
   padding-right: 24px;
-  padding-bottom: 54px;
+  padding-bottom: 20px;
   padding-left: 24px;
   border-width: 24px;
   border-left: 24px;
   margin-top: 4px;
-
+  border-bottom: 4px
 }
 
 /* Контакти низ*/
 
 .footer {
   background: var(--background-dark-bg);
-  font-family: Roboto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address-footer{
+  margin-top: 20px;
+}
+.footer-link {
+  color: var(--primery-light-txt);
+  font-style: normal;
+  margin: 9px;
+}
+/* font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -373,17 +382,10 @@ p last-child {
   padding-top: 60px;
   padding-bottom: 60px;
   letter-spacing: 0.03em;
-  color: var(-secondary-light-txt);
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.footer-link {
-  color: var(--primery-light-txt);
-  font-style: normal;
-  margin: 9px;
-}
+  color: var(-secondary-light-txt); */
+
 .footer-item{
-  margin: 20px;
+  margin-bottom: 9px;
 }
 
 
