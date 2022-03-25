@@ -36,7 +36,7 @@ h3,
 h4,
 h5, 
 h6 { 
-  margin-top: 0;
+  margin: 0;
 }
 ul,
 ol {
@@ -101,7 +101,7 @@ p last-child {
   padding-top: 24px;
   padding-bottom: 25px;
   align-items: center;
-  border-bottom: #E5E5E5;
+  border-bottom: 80px;
 }
 .header-button {
   font-weight: 500;
@@ -142,6 +142,9 @@ p last-child {
 }
 .nav-item {
   margin-right: 50px;
+}
+.nav-item:last-child{
+  margin-right: 0px;
 }
 
 /* Секция Герой*/
@@ -196,6 +199,13 @@ p last-child {
   background: var(--bly-color-txt);
   color: var(--primery-light-txt);
   border-radius: 4px;
+
+  line-height: 30px;
+   display: block;
+  margin: 0 auto;
+  padding: 10px 32px;
+  font-weight: bold;
+
 }
 
 /* О Нас*/
@@ -208,7 +218,6 @@ p last-child {
 .about-item {
   width: 270px;
   margin-left: 30px;
-  margin-top: 30px;
 }
 /*.about-item {
   
@@ -247,8 +256,8 @@ p last-child {
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--secondary-dark-txt);
+  margin-bottom: 50px;
 }
 .we-foto {
   display: blok ;
@@ -264,6 +273,7 @@ p last-child {
   display: flex;
   align-items: center;
   padding-top: 30px;
+   background-color: #f5f4fa;
 }
 
 .tiam-title {
@@ -279,6 +289,7 @@ p last-child {
 .tiam-item {
   margin-top: 30px;
   text-align: center;
+  
 
 }
 
@@ -289,25 +300,47 @@ p last-child {
 }
 
 .navigation-list {
-  text-align: center;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  
 }
-.navigation-item {
-  font-weight: 500;
+.navigation-item:not(:last-child) {
+  margin-right: 8px;
+  }
+
+  .portfolio__button {
+
+  font-weight: bold;
   font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.03em;
-
+  line-height: 1.87;
+  border: none;
+  letter-spacing: 0.06em;
+  background: var(--primary-light-bg);
   color: var(--secondary-dark-txt);
-  margin-right: nth-last-child;
-}
+  background-color: #2196f3;
+  border-radius: 4px;
 
-.navigation-list :hover {
-  color: var(--primary-light-bg);
+  line-height: 30px;
+   display: block;
+  margin: 0 auto;
+  padding: 10px 32px;
+  font-weight: bold;
+
+
+
+  font-family: Roboto;
+  
+  line-height: 26px;
+  ;
 }
-.navigation-list :focus {
+  
+
+.navigation-list :hover,
+.navigation-list :focus  {
+  color: var(--primary-light-bg);
   color: var(--bly-color-txt);
+  cursor: pointer;
 }
 
 
@@ -322,11 +355,11 @@ p last-child {
   padding: 0;
 }
 
-.fotos-list:not(:nth-child(n + 7)) {
+.activ-prodject:not(:nth-child(n + 7)) {
   margin-top: 50px;
   flex-basis: calc((100% - 90px) / 3);
 }
-.fotos-list {
+.activ-prodject {
   display: flex;
   flex-wrap: wrap;
   margin-top: 30px;
@@ -338,7 +371,7 @@ p last-child {
   margin-left: 30px;
 }
 
-.tiam-link {
+.example__text {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
@@ -347,7 +380,7 @@ p last-child {
   color: var(--primary-dark-txt);
   
 }
-.tiam-layk{
+.example__content{
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
