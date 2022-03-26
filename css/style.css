@@ -15,6 +15,7 @@
   /* Cветлый фон */
   --primary-light-bg: #e5e5e5;
   --secondary-light-bg: #f5f4fa;
+ 
   /* Темный фон */
   --background-dark-bg: #2f303a;
   --bly-color-txt: #2196f3;
@@ -101,7 +102,7 @@ p last-child {
   padding-top: 24px;
   padding-bottom: 25px;
   align-items: center;
-  border-bottom: 80px;
+  border-bottom: 1px solid var(--primary-light-bg);
 }
 .header-button {
   font-weight: 500;
@@ -260,7 +261,7 @@ p last-child {
   margin-bottom: 50px;
 }
 .we-foto {
-  display: blok ;
+  display: block ;
   max-width: 100%;
   height: auto;
  
@@ -268,14 +269,20 @@ p last-child {
 
 /*Наша команда*/
 
+.container-tiam{
+  background-color: #f5f4fa;
+}
 
 .tiam-list {
   display: flex;
   align-items: center;
-  padding-top: 30px;
-   background-color: #f5f4fa;
+
+   
 }
 
+.tiam-list > .tiam-item:not(:last-child){
+  margin-right: 30px;
+}
 .tiam-title {
   font-weight: bold;
   font-size: 36px;
@@ -283,13 +290,14 @@ p last-child {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-dark-txt);
-  margin-bottom: 30px;
-  background-color: #f5f4fa;
+  margin-bottom: 50px;
+  
 }
 .tiam-item {
-  margin-top: 30px;
   text-align: center;
-  
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
 
 }
 
@@ -326,20 +334,15 @@ p last-child {
   margin: 0 auto;
   padding: 10px 32px;
   font-weight: bold;
-
-
-
   font-family: Roboto;
-  
   line-height: 26px;
-  ;
 }
   
 
 .navigation-list :hover,
 .navigation-list :focus  {
   color: var(--primary-light-bg);
-  color: var(--bly-color-txt);
+  color: var(--primery-light-txt);
   cursor: pointer;
 }
 
@@ -356,7 +359,6 @@ p last-child {
 }
 
 .activ-prodject:not(:nth-child(n + 7)) {
-  margin-top: 50px;
   flex-basis: calc((100% - 90px) / 3);
 }
 .activ-prodject {
@@ -385,10 +387,9 @@ p last-child {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-  border-width: 24px;
   border-left: 24px;
-  margin-top: 4px;
-  border-bottom: 4px
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
 }
 
 /* Контакти низ*/
@@ -405,8 +406,13 @@ p last-child {
 .footer-link {
   color: var(--primery-light-txt);
   font-style: normal;
-  margin: 9px;
+  margin-top: 9px;
 }
+
+.footer-link:not(:last-child) {
+  margin-bottom: 0px;
+}
+
 /* font-family: Roboto;
   font-style: normal;
   font-weight: normal;
