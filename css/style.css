@@ -359,13 +359,13 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .activ-prodject:not(:nth-child(n + 7)) {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 30px) / 3);
 }
 .activ-prodject {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: -30px;
+  margin-left: -30px;
   justify-content: space-evenly;
 }
 .fotos-item {
@@ -383,11 +383,11 @@ border-radius: 0px 0px 4px 4px;
   
 }
 .example__content{
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  border-left: 24px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 1px;
+  border-left: 30px;
   background: #ffffff;
   border: 1px solid #e5e5e5;
 }
