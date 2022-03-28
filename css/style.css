@@ -391,6 +391,11 @@ border-radius: 0px 0px 4px 4px;
   background: #ffffff;
   border: 1px solid #e5e5e5;
 }
+.example__link {
+  text-decoration: none;
+  list-style: none;
+  color: #212121;
+}
 
 /* Контакти низ*/
 
