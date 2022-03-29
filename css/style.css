@@ -188,6 +188,7 @@ p last-child {
   margin-bottom: 30px;
   max-width: 696px;
   margin: auto;
+  m: 30px;
 
   color: var(--primery-light-txt);
 }
@@ -225,13 +226,18 @@ p last-child {
 }*/
 
 .subtitle {
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--secondary-dark-txt);
   margin-bottom: 10px;
+  margin-top: 30px;
+}
+.tiam-text{
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 19px;
 }
 /*.about {
 }*/
@@ -269,8 +275,10 @@ p last-child {
 
 /*Наша команда*/
 
-.container-tiam{
-  background-color: #f5f4fa;
+.section-tiam{
+    background-color: var( --secondary-light-bg);
+    margin-top: 50px;
+    margin-bottom: 94px;
 }
 
 .tiam-list {
@@ -313,36 +321,37 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 50px;
   
 }
+.navigation-item{
+  margin-top: 30px;
+  margin-left: 30px;
+}
 .navigation-item:not(:last-child) {
   margin-right: 8px;
   }
 
   .portfolio__button {
 
-  font-weight: bold;
   font-size: 16px;
-  line-height: 1.87;
   border: none;
   letter-spacing: 0.06em;
   background: var(--primary-light-bg);
   color: var(--secondary-dark-txt);
   background-color: #2196f3;
   border-radius: 4px;
-
-  line-height: 30px;
    display: block;
   margin: 0 auto;
   padding: 10px 32px;
   font-weight: bold;
   font-family: Roboto;
-  line-height: 26px;
+  line-height: 1.8;
 }
-  
+
 
 .navigation-list :hover,
 .navigation-list :focus  {
   color: var(--primary-light-bg);
   color: var(--primery-light-txt);
+  background-color: var(--primary-dark-txt);
   cursor: pointer;
 }
 
@@ -366,7 +375,7 @@ border-radius: 0px 0px 4px 4px;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  justify-content: space-evenly;
+ 
 }
 .fotos-item {
   margin-top: 30px;
@@ -382,19 +391,23 @@ border-radius: 0px 0px 4px 4px;
   
 }
 .example__content{
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
   margin-bottom: 30px;
-  padding-left: 1px;
-  border-left: 30px;
-  background: #ffffff;
-  border: 1px solid #e5e5e5;
+  padding-left: 24px;
+  border-left: 1px;
+  border-width: 1px;
+  border-bottom: 1px;
 }
 .example__link {
   text-decoration: none;
   list-style: none;
   color: #212121;
+}
+.foto {
+  display: block 100%;
+  height: 100% auto;
 }
 
 /* Контакти низ*/
@@ -414,8 +427,8 @@ border-radius: 0px 0px 4px 4px;
   margin-top: 9px;
 }
 
-.footer-link:not(:last-child) {
-  margin-bottom: 0px;
+.footer-item:not(:last-child) {
+  margin-top: 0px;
 }
 
 /* font-family: Roboto;
