@@ -427,9 +427,9 @@ border-radius: 0px 0px 4px 4px;
   margin-top: 9px;
 }
 
-.footer-item:not(:last-child) {
-  margin-top: 0px;
-}
+/* .footer-item:not(:last-child) { 
+  margin-bottom: 9px;
+}*/
 
 /* font-family: Roboto;
   font-style: normal;
@@ -442,9 +442,9 @@ border-radius: 0px 0px 4px 4px;
   color: var(-secondary-light-txt); */
 
 .footer-item{
-  margin-bottom: 9px;
+  margin-top: 9px;
 }
-
+/*.footer-list: */
 
 .nav-link:hover,
 .nav-link:focus {
